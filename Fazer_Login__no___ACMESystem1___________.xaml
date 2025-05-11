@@ -105,7 +105,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:RetryScope ContinueOnError="{x:Null}" DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="558.4,1260" sap2010:WorkflowViewState.IdRef="RetryScope_1" NumberOfRetries="3" RetryInterval="{x:Null}">
+    <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="558.4,1260" sap2010:WorkflowViewState.IdRef="RetryScope_1" NumberOfRetries="3">
       <ui:RetryScope.ActivityBody>
         <ActivityAction>
           <Sequence DisplayName="Ação" sap:VirtualizedContainerService.HintSize="516.8,969.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
@@ -114,7 +114,7 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" ConnectionId="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="483.2,909.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="{x:Null}" InteractionMode="DebuggerApi" IsIncognito="{x:Null}" OpenMode="{x:Null}" OutUiElement="{x:Null}" ScopeGuid="74a17a8f-2a07-4a64-87a2-0863f33e97b8" Timeout="{x:Null}" UserDataFolderMode="{x:Null}" UserDataFolderPath="{x:Null}" Version="V2" WebDriverMode="{x:Null}">
+            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="483.2,909.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="74a17a8f-2a07-4a64-87a2-0863f33e97b8" Version="V2">
               <uix:NApplicationCard.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
@@ -126,7 +126,7 @@
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <uix:NTypeInto ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickBeforeMode="Single" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into 'Email'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InScope="{x:Null}" InUiElement="{x:Null}" OutUiElement="{x:Null}" ScopeIdentifier="74a17a8f-2a07-4a64-87a2-0863f33e97b8" SecureText="{x:Null}" Text="[in_Email]" Timeout="{x:Null}" Version="V4">
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Email'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="74a17a8f-2a07-4a64-87a2-0863f33e97b8" Text="[in_Email]" Version="V4">
                       <uix:NTypeInto.Target>
                         <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/login" CVScreenId="9f8423a4-4249-46ce-a931-b17768e181b6" ContentHash="4s6DCLdwCkW5ep2StH7yMQ" CvElementArea="334, 593, 607, 47" CvType="InputBox" DesignTimeRectangle="334, 596, 607, 43" DesignTimeScaleFactor="1.25" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='email' tag='INPUT' type='email' class='form-control ' aaname='Email:' /&gt;" Guid="995e77ec-6b95-4d5b-8a1e-469469828a7a" InformativeScreenshot="43f5a16e7faf99eee4e05bfb8a9f6eac.png" IsResponsive="True" Reference="ZykCPXDo5UmgGeNVWgvlfA/pg7g4C8R-kGWtubSYkJcKA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Log In' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                           <uix:TargetAnchorable.Anchors>
@@ -137,7 +137,7 @@
                         </uix:TargetAnchorable>
                       </uix:NTypeInto.Target>
                     </uix:NTypeInto>
-                    <ui:TypeSecureText Activate="True" AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Secure Text 'INPUT  password'" EmptyField="True" sap:VirtualizedContainerService.HintSize="416,139.2" sap2010:WorkflowViewState.IdRef="TypeSecureText_1" SecureText="[in_Senha]" SendWindowMessages="{x:Null}" SimulateType="{x:Null}">
+                    <ui:TypeSecureText AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Secure Text 'INPUT  password'" EmptyField="True" sap:VirtualizedContainerService.HintSize="416,139.2" sap2010:WorkflowViewState.IdRef="TypeSecureText_1" SecureText="[in_Senha]">
                       <ui:TypeSecureText.Target>
                         <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="52f7ddc1-a083-4fe1-980f-22e18a87992b" InformativeScreenshot="55174410ebefc8b9f3ef8edb605cf7f4" Selector="&lt;webctrl id='password' tag='INPUT' /&gt;">
                           <ui:Target.TimeoutMS>
@@ -149,7 +149,7 @@
                         </ui:Target>
                       </ui:TypeSecureText.Target>
                     </ui:TypeSecureText>
-                    <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click 'Login(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,218.4" sap2010:WorkflowViewState.IdRef="NClick_1" InScope="{x:Null}" InUiElement="{x:Null}" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="74a17a8f-2a07-4a64-87a2-0863f33e97b8" Timeout="{x:Null}" Version="V4">
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Login(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,218.4" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="74a17a8f-2a07-4a64-87a2-0863f33e97b8" Version="V4">
                       <uix:NClick.Target>
                         <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/login" CVScreenId="e8f033f9-d4ce-4fc0-a11f-451eb23e2623" ContentHash="Y2hQdFd6w0eVx2ZvMrxEqw" CvElementArea="332, 800, 78, 45" CvTextArea="349, 812, 45, 21" CvTextArgument="Login" CvType="Button" DesignTimeRectangle="334, 802, 75, 42" DesignTimeScaleFactor="1.25" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='btn btn-primary' aaname='                             Login                         ' check:innerText='Login' /&gt;" Guid="f13cfa48-e1e8-41d8-a8f8-869ce64f0ad9" InformativeScreenshot="f72a1372417ea20fe7242feefc12d9c4.png" Reference="ZykCPXDo5UmgGeNVWgvlfA/Pq3UjqyEL02sPRQZKBMJ_Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Log In' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
                       </uix:NClick.Target>
@@ -176,7 +176,7 @@
       </ui:RetryScope.ActivityBody>
       <ui:RetryScope.Condition>
         <ActivityFunc x:TypeArguments="x:Boolean">
-          <ui:UiElementExists ContinueOnError="{x:Null}" DisplayName="Element Exists  &quot;Dashboard&quot;" Exists="{x:Null}" sap:VirtualizedContainerService.HintSize="516.8,107.2" sap2010:WorkflowViewState.IdRef="UiElementExists_1" Result="{x:Null}">
+          <ui:UiElementExists Exists="{x:Null}" DisplayName="Element Exists  &quot;Dashboard&quot;" sap:VirtualizedContainerService.HintSize="516.8,107.2" sap2010:WorkflowViewState.IdRef="UiElementExists_1">
             <ui:UiElementExists.Target>
               <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="23a764c3-2801-445e-a101-d7bdf91714f4" InformativeScreenshot="ddd2f6c246d6004f95f600f558509417" Selector="&lt;html app='chrome.exe' title='ACME System 1 - Dashboard' /&gt;&lt;webctrl tag='H1' /&gt;">
                 <ui:Target.TimeoutMS>

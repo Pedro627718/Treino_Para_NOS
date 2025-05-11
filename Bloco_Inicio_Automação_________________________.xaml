@@ -77,13 +77,13 @@
       <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Bloco_Inicio_Automação_________________________" sap:VirtualizedContainerService.HintSize="652,260.424" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Bloco_Inicio_Automação_________________________" sap:VirtualizedContainerService.HintSize="652,434.04" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="416,117.6" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;A Automação vai começar....&quot;]" />
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Inicio de Automação" sap:VirtualizedContainerService.HintSize="416,117.6" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;A Automação vai começar....&quot;]" />
     <ui:StartTimer DisplayName="Start Timer" sap:VirtualizedContainerService.HintSize="416,104" sap2010:WorkflowViewState.IdRef="StartTimer_1" Timer="[out_Temporizador]" />
   </Sequence>
 </Activity>

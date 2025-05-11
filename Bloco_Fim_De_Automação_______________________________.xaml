@@ -91,6 +91,6 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ui:StopTimer DisplayName="Stop Timer" sap:VirtualizedContainerService.HintSize="416,112.8" sap2010:WorkflowViewState.IdRef="StopTimer_1" Timer="[in_Temporizador]" />
-    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="416,108.8" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Automação Concluida com Sucesso em &quot; + in_Temporizador.Elapsed.Minutes.ToString + &quot; minutos e &quot; + in_Temporizador.Elapsed.Seconds.ToString + &quot; Segundos!&quot;]" />
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Fim de Automação" sap:VirtualizedContainerService.HintSize="416,108.8" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Automação Concluida com Sucesso em &quot; + in_Temporizador.Elapsed.Minutes.ToString + &quot; minutos e &quot; + in_Temporizador.Elapsed.Seconds.ToString + &quot; Segundos!&quot;]" />
   </Sequence>
 </Activity>
